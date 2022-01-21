@@ -181,7 +181,7 @@ footer {
         font-size: 2em;
     }
     .countdown {
-        transform: scale(0.8);
+        transform: scale(0.95);
     }
     .countdown p {
         font-size: 1em;
