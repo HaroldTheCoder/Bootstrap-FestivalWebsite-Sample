@@ -226,7 +226,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 380) and (max-width: 992px) {
+@media screen and (min-width: 380px) and (max-width: 992px) {
     body {
         text-align: center;
     }
