@@ -47,7 +47,7 @@ h2 {
 	object-fit: cover;
 	object-position: center center !important;
 	width: 100% !important;
-	height: 46rem !important;
+	height: 100vh !important;
 	opacity: 0.3 !important;
 }
 
@@ -211,10 +211,4 @@ footer {
         display: block !important;
 	    height: 100% !important;
     }
-}
-
-@media screen and (min-width: 1500px) {
-	.header-img {
-		height: 70vh !important;
-	}
 }
