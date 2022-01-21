@@ -215,6 +215,6 @@ footer {
 
 @media screen and (min-width: 1500px) {
 	.header-img {
-		height: 55rem !important;
+		height: 70vh !important;
 	}
 }
