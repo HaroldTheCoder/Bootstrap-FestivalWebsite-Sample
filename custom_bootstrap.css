@@ -173,7 +173,7 @@ footer {
 	margin-bottom: 10% !important;
     }
     .carousel-caption button {
-	width: 50% !important;
+	transform: scale(0.9) !important;
      }
     .artist-card-inner {
         background-color: #070b0e;
