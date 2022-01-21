@@ -166,22 +166,22 @@ footer {
         padding: 0.5em 0 !important;
     }
 	h2 {
-		font-size: 2em !important;
+		font-size: 1.8em !important;
 	}
 	.carousel-caption {
-		margin-bottom: 20% !important;
+		margin-bottom: 10% !important;
 	}
     .artist-card-inner {
         background-color: #070b0e;
     }
     .section-2 .row .col-lg-7, .section-3 .row .col-lg-6 {
-        padding: 1.5em !important;
+        padding: 1.2em !important;
     }
     .box {
         font-size: 2em;
     }
     .countdown {
-        transform: scale(0.95);
+        transform: scale(0.85);
     }
     .countdown p {
         font-size: 1em;
