@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Website Bootstrap Sample</title>
+        <link rel="icon" href="Images/tab-logo.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="website_bootstrap.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+	<body>
+        <!-- Navbar -->
+		<nav id="main-navbar" class="navbar navbar-expand-lg navbar-dark py-3 px-2">
+			<div class="container-fluid">
+				<a href="" class="navbar-brand text-light me-auto">   
+                    <img src="Images/Download-Festival-Logo.svg.png" alt="" class=" d-inline-block w-25">
+                </a>
+                <!--Navbar toggle icon mobile-->
+				<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span><i class="fas fa-bars"></i></span>
+				</button>
+
+                <!-- Collapsible navigation-->
+				<div id="collapsibleNavbar" class="collapse navbar-collapse">
+					<ul class="navbar-nav ms-auto pe-5">
+                        <li class="nav-item px-2">
+							<a href="" class="nav-link text-light active text-uppercase">Home</a>
+						</li>
+						<li class="nav-item px-2">
+							<a href="" class="nav-link text-uppercase">Tickets</a>
+						</li>
+						<li class="nav-item px-2">
+							<a href="" class="nav-link text-uppercase">Gallery</a>
+						</li>
+						<li class="nav-item px-2">
+							<a href="" class="nav-link text-uppercase">Events</a>
+						</li>
+						<li class="nav-item px-2">
+							<a href="" class="nav-link text-uppercase">Help</a>
+						</li>
+					</ul>
+					<button class="btn btn-outline-light">Sign up</button>
+				</div>
+			</div>
+		</nav>
+
+		<header id="main-header" class="main_header" >
+			<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+				<!-- Controls -->
+					<div class="carousel-indicators">
+						<button type="button" class="active" data-bs-target="#myCarousel" data-bs-slide-to="0">
+						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+					</div>
+
+				<!-- Slides -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="Images/pexels-vishnu-r-nair-1105666.jpg" alt="" style="width:100%" class="d-block header-img"/>
+                        <div class="carousel-caption pb-2">
+                            <img src="Images/dlau_logo.png" alt="" class="w-50">
+                            <h2 class="text-uppercase">The UK's Premier Rock Festival</h2>
+                            <p class="lead mb-5">8 - 10 June 2018, Doningtong Park, London</p>
+                            <button class="btn btn-lg btn-outline-warning text-uppercase">Get your tickets now!</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+						<img src="Images/pexels-wendy-wei-1190297.jpg" alt="" style="width:100%" class="d-block header-img"/>
+                        <div class="carousel-caption pb-2">
+                            <img src="Images/dlau_logo.png" alt="" class="w-50">
+                            <h2 class="text-uppercase">Lollapalooza Festival</h2>
+                            <p class="lead mb-5">15 - 19 September 2018, Olympianstadion, Berlin</p>
+                            <button class="btn btn-lg btn-outline-warning text-uppercase">Get your tickets now!</button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+						<img src="Images/pexels-mikky-koopac-625644.jpg" alt="" style="width:100%" class="d-block header-img"/>
+                        <div class="carousel-caption pb-2">
+                            <img src="Images/dlau_logo.png" alt="" class="w-50">
+                            <h2 class="text-uppercase">Governors Ball Music Festival</h2>
+                            <p class="lead mb-5">2 - 5 November 2018, Randall's Island Park, New York City</p>
+                            <button class="btn btn-lg btn-outline-warning text-uppercase">Get your tickets now!</button>
+                        </div>
+                    </div>
+				</div>
+
+               
+			</div>
+		</header>
+
+        <!-- Main Content -->
+        <main class="container py-5">
+
+            <!-- Artist Section -->
+            <div class="section-1 py-5 border-bottom border-dark">
+                <h2 class="text-warning text-uppercase">Featured Artists</h2>
+                <div class="row py-5 text-center mx-auto">
+
+                    <div id="artist-card" class="col-lg-4 text-light py-5 px-0 mx-auto" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease">
+                        <div class="artist-card-inner p-5">
+                            <img src="Images/steve_aoki_headshot.jpg" alt="" class="rounded-circle d-block w-50 mx-auto">
+                            <h3>Steve Aoki</h3>
+                            <p class="py-3">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            <button class="btn btn-secondary text-uppercase">View artist profile</button> 
+                        </div>
+                    </div>
+
+                    <div id="artist-card" class="col-lg-4  text-light py-5 px-0 mx-auto" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease">
+                        <div class="artist-card-inner p-5">
+                            <img src="Images/daft-punk.jpg" alt="" class="rounded-circle d-block w-50 mx-auto">
+                            <h3>Daft Punk</h3>
+                            <p class="py-3">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            <button class="btn btn-secondary text-uppercase">View artist profile</button> 
+                        </div>
+                    </div>
+
+                    <div id="artist-card" class="col-lg-4 text-light py-5 px-0 mx-auto" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-easing="ease" >
+                            <div class="artist-card-inner p-5">
+                            <img src="Images/tiesto.jpg" alt="" class="rounded-circle d-block w-50 mx-auto">
+                            <h3>Tiesto</h3>
+                            <p class="py-3">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            <button class="btn btn-secondary text-uppercase">View artist profile</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="section-2 py-5 border-bottom border-dark">
+                <div class="row py-5 ">
+                    <div class="col-lg-7 d-flex flex-column justify-content-center mx-auto pe-5">
+                        <h2 class="text-warning pb-4 text-uppercase">20 Artist Added To Your Download 2022 Line Up!</h2>
+                        <p class="lead text-light">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    </div>
+                    <div class="col-lg-5 mx-auto">
+                        <div class="img-container">
+                        <img src="Images/pexels-zeke-nesher-838702.jpg" alt="" class="d-block w-100 opacity-75 section-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section 3-->
+            <div class="section-3 py-5 border-bottom border-dark">
+                <div class="row py-5">
+                    <div class="col-lg-6">
+                        <img src="Images/download-tv.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column justify-content-center mx-auto ps-5">
+                        <h2 class="text-warning pb-4 text-uppercase">Live Streamed</h2>
+                         <p class="lead text-light">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                        <button type="button" class="btn btn-warning btn-lg mt-5 text-uppercase">Get Download TV</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Countdown -->
+            <div id="countdown-container" class="container py-5 my-5">
+                <div class="section-top">
+                    <header class="header">
+                        <h2 class="text-warning text-center text-uppercase">We're Are Coming</h2>
+                    </header>
+                <section class="countdown d-flex justify-content-center align-content-center text-light">
+                    <div class="days-box text-center p-5">
+                        <div class="days box">00</div>
+                        <p class="text-warning">Days</p>
+                    </div>
+
+                    <div class="hours-box text-center p-5">
+                        <div class="hours box">00</div>
+                        <p class="text-warning">Hours</p>
+                    </div>
+
+                    <div class="minutes-box text-center p-5">
+                        <div class="minutes box">00</div>
+                        <p class="text-warning">Minutes</p>
+                    </div>
+
+                    <div class="seconds-box text-center p-5">
+                        <div class="seconds box">00</div>
+                        <p class="text-warning">Seconds</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Partner Banners -->
+        <div class="container-fluid partner-background pt-5 pb-3 px-0 my-5">
+            <div class="container-fluid d-flex justify-content-center align-content-center py-5 partner-container">
+                <img src="Images/carlsberg-2020.png" alt="" class="w-25 partner-logo">
+                <img src="Images/coop-2020.png" alt="" class="w-25 partner-logo">
+                <img src="Images/somersby-2020.png" alt="" class="w-25 partner-logo">
+                <img src="Images/barclaycard-2020.png" alt="" class="w-25 partner-logo">
+                <img src="Images/pepsi-max-2020.png" alt="" class="w-25 partner-logo">
+                <img src="Images/FHS-logo.png" alt="" class="w-25 partner-logo">
+            </div>
+        </div>
+
+        <!-- Social media icons-->
+        <div class="d-flex justify-content-center align-content-center pb-5 mb-5 border-bottom border-dark">
+            <span class=" mx-2 text-light icon"><i class="fab fa-facebook-f"></i></span>
+            <span class="mx-2 text-light icon"><i class="fab fa-twitter"></i></span>
+            <span class=" mx-2 text-light icon"><i class="fab fa-youtube"></i></span>
+            <span class=" mx-2 text-light icon"><i class="fab fa-instagram"></i></span>
+            <span class=" mx-2 text-light icon"><i class="fab fa-tiktok"></i></span>
+        </div>
+
+        <div class="container row p-5 my-5 mx-auto bottom-links">
+            <div class="col-lg-3 p-5">
+                <ul class="list-unstyled">
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Tickets</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Gallery</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Events</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Artists</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">News</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Forum</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 p-5">
+                <ul class="list-unstyled">
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Press</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Info</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">About</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Help</a></li>
+                    <li class="list-item"><a href="" class="link-warning text-uppercase">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 p-5 text-light">
+                <p><span class="h5">Download Festival</span> is a mammoth five day rock event, based at the spiritual home of rock Donington Park.</p>
+                <p class="text-secondary">THE UK'S PREMIER ROCK FESTIVAL<br>
+                    8 — 10 JUNE 2018, DONINGTON PARK
+                </p>
+                <p class="text-secondary">Events, Dates and Artist are not real. This website is a replica for practice purposes. We do not own rights, all rights reserved to Download Festival.</p>
+            </div>
+        </div>
+        <footer class="container-fluid px-0">
+            <img src="Images/download-banner.jpg" alt="" class=" d-block w-100 banner">
+        </footer>
+
+        <script src="main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <script
+			defer
+			src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+			integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
