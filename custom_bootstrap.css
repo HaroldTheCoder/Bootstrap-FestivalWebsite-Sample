@@ -136,7 +136,84 @@ footer {
 	background-size: cover !important;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 379px) {
+    body {
+        text-align: center;
+    }
+    #main-navbar .container-fluid{
+        text-align: initial !important;
+    }
+    #main-navbar .container-fluid .navbar-brand{
+        width: 70% !important;
+        margin: 0 !important;
+        text-align: initial !important;
+    }
+    #main-navbar .container-fluid .navbar-brand img {
+        width: 140px !important;
+    }
+    #collapsibleNavbar {
+        padding-top: 1.5em !important;
+        text-align: center;
+    }
+    #collapsibleNavbar .btn {
+        margin: 1em 0 !important;
+        width: 50% !important;
+    }
+    .navbar-nav {
+        padding-right: 0 !important;
+    }
+    .navbar-nav .nav-item {
+        padding: 0.5em 0 !important;
+    }
+	h2 {
+		font-size: 2em !important;
+	}
+	.carousel-caption {
+		margin-bottom: 20% !important;
+	}
+    .artist-card-inner {
+        background-color: #070b0e;
+    }
+    .section-2 .row .col-lg-7, .section-3 .row .col-lg-6 {
+        padding: 1.5em !important;
+    }
+    .box {
+        font-size: 2em;
+    }
+    .countdown {
+        transform: scale(0.95);
+    }
+    .countdown p {
+        font-size: 1em;
+    }
+    .days-box, .hours-box,
+    .minutes-box, .seconds-box {
+        padding: 1em !important;
+    }
+    .partner-container {
+        flex-wrap: wrap !important;
+    }
+    .partner-container img {
+        width: 120px !important;
+    }
+    .partner-background {
+        padding: 0 !important;
+        margin: 0 0 3em 0 !important;
+    }
+    .icon {
+	font-size: 1.2em !important;
+    }
+    footer {
+        height: auto;
+        background: none !important;
+    }
+    .banner {
+        display: block !important;
+	    height: 100% !important;
+    }
+}
+
+@media screen and (min-width: 380) and (max-width: 992px) {
     body {
         text-align: center;
     }
