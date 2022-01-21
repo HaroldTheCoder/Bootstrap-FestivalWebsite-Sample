@@ -212,3 +212,9 @@ footer {
 	    height: 100% !important;
     }
 }
+
+@media screen and (min-width: 1500px) {
+	.header-img {
+		height: 55rem !important;
+	}
+}
