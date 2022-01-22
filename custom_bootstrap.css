@@ -290,7 +290,336 @@ footer {
         padding: 0 !important;
         margin: 0 0 3em 0 !important;
     }
+    .icon {body {
+	background: linear-gradient(#070b0ee1, #070b0ee1),
+		url(Images/DL_20_GE_TOTEM_NO-DOG_OLD_SARUM.jpg) no-repeat top center !important;
+	background-size: cover !important;
+}
+h2 {
+	font-size: 3em !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* Navbar custom*/
+#main-navbar,
+.img-container {
+	background-color: #070b0e !important;
+}
+.nav-link {
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+}
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.nav-button {
+    width: 100px !important;
+}
+.fa-bars {
+    font-size: 1.5em;
+	color: #ccc;
+}
+
+/* Header - Carousel custom*/
+.carousel-inner {
+	background-color: #000 !important;
+}
+.carousel-caption h2 {
+    font-size: 1.4em !important;
+    font-weight: 800 !important;
+    width: 650px;
+}
+.carousel-caption img {
+    width: 600px;
+}
+.header-img {
+	object-fit: cover;
+	object-position: center center !important;
+	width: 100% !important;
+	height: 100vh !important;
+	opacity: 0.3 !important;
+}
+.lead {
+    width: 650px;
+    font-size: 1.8em;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+/* Artist and Sections custom */
+#artist-card {
+	border: 7px solid #070b0e00 !important;
+}
+.artist-card-inner {
+     border-radius: 0.5rem;
+}
+.artist-card-inner:hover {
+   transform: scale(1.01);
+    background-color: #070b0e;
+}
+.section-img {
+	object-fit: cover;
+	object-position: top center !important;
+	width: 100% !important;
+	height: auto !important;
+}
+
+/* Countdown */
+.box {
+    font-size: 5em;
+    font-weight: 900;
+}
+.countdown p {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/* Partner Section custom */
+.partner-logo {
+	width: 200px !important;
+	height: 200% !important;
+}
+.partner-container,
+.artist-card-inner {
+	background-color: #070b0ea6;
+}
+/* Social Media Icons custom */
+.icon {
+	font-size: 1.5em !important;
+    border: 3px solid #1c6073;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+}
+.icon:first-of-type {
+    padding: 10px 19.5px 10px 19.5px;
+}
+.icon:nth-child(4) {
+    padding: 10px 17px 10px 17px; 
+}
+.icon:last-of-type {
+    padding: 10px 17px 10px 17px;
+}
+.icon:hover {
+    transform: scale(1.05);
+    border-color: rgb(0, 216, 216);
+    transition: border-color ease 0.5s;
+    cursor: pointer;
+}
+
+/* Bottom Navigation custom */
+.bottom-links .list-item {
+    font-size: 1.4em !important;
+    line-height: 35px;
+}
+.bottom-links .list-item a {
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    
+}
+.bottom-links .list-item a:hover {
+    color: #fff;
+    transition: color ease 0.5s;
+}
+.banner {
+    display: none !important;
+}
+/* Footer Banner custom */
+footer {
+    height: 100vh;
+    background: linear-gradient(#070b0e3a, #070b0e3a), url(Images/download-banner.jpg) no-repeat center center fixed !important;
+	background-size: cover !important;
+}
+
+/* Responsive custom */
+@media screen and (max-width: 379px) {
+    body {
+        text-align: center;
+    }
+    .fa-bars {
+        font-size: 1.2em;
+	    color: #ccc;
+    }
+    #main-navbar .container-fluid{
+        text-align: initial !important;
+    }
+    #main-navbar .container-fluid .navbar-brand{
+        width: 70% !important;
+        margin: 0 !important;
+        text-align: initial !important;
+    }
+    #main-navbar .container-fluid .navbar-brand img {
+        width: 120px !important;
+    }
+    #collapsibleNavbar {
+        padding-top: 1.5em !important;
+        text-align: center;
+    }
+    #collapsibleNavbar .btn {
+        margin: 1em 0 !important;
+        width: 50% !important;
+    }
+    .navbar-nav {
+        padding-right: 0 !important;
+    }
+    .navbar-nav .nav-item {
+        padding: 0.5em 0 !important;
+    }
+    h2 {
+	    font-size: 1.8em !important;
+    }
+    .carousel-caption h2 {
+        font-size: 0.8em !important;
+        width: 100%;
+    }
+    .carousel-caption img {
+        width: 100%;
+    }
+    .lead {
+        width: 100%;
+        font-size: 1em;
+    }
+    .carousel-caption button {
+	    transform: scale(0.9) !important;
+     }
+    .artist-card-inner {
+        background-color: #070b0e;
+    }
+    .section-2 .row .col-lg-7, .section-3 .row .col-lg-6 {
+        padding: 1.2em !important;
+    }
+    .box {
+        font-size: 2em;
+    }
+    .countdown {
+        transform: scale(0.85);
+    }
+    .countdown p {
+        font-size: 1em;
+    }
+    .days-box, .hours-box,
+    .minutes-box, .seconds-box {
+        padding: 1em !important;
+    }
+    .partner-container {
+        flex-wrap: wrap !important;
+    }
+    .partner-container img {
+        width: 120px !important;
+    }
+    .partner-background {
+        padding: 0 !important;
+        margin: 0 0 3em 0 !important;
+    }
     .icon {
+	    font-size: 1.1em !important;
+    }
+    .icon:first-of-type {
+    	padding: 7px 16.5px 7px 16.5px;
+    }
+    .icon:nth-child(4) {
+    	padding: 7px 14px 7px 14px; 
+    }
+    .icon:last-of-type {
+    	padding: 7px 14px 7px 14px;
+    }
+    footer {
+        height: auto;
+        background: none !important;
+    }
+    .banner {
+        display: block !important;
+	    height: 100% !important;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 992px) {
+    body {
+        text-align: center;
+    }
+    #main-navbar .container-fluid{
+        text-align: initial !important;
+    }
+    #main-navbar .container-fluid .navbar-brand{
+        width: 70% !important;
+        margin: 0 !important;
+        text-align: initial !important;
+    }
+    #main-navbar .container-fluid .navbar-brand img {
+        width: 140px !important;
+    }
+    #collapsibleNavbar {
+        padding-top: 1.5em !important;
+        text-align: center;
+    }
+    #collapsibleNavbar .btn {
+        margin: 1em 0 !important;
+        width: 50% !important;
+    }
+    .navbar-nav {
+        padding-right: 0 !important;
+    }
+    .navbar-nav .nav-item {
+        padding: 0.5em 0 !important;
+    }
+	h2 {
+		font-size: 2em !important;
+	}
+    .carousel-caption h2 {
+        font-size: 1em !important;
+        width: 100%;
+    }
+    .carousel-caption img {
+        width: 100%;
+    }
+    .lead {
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .artist-card-inner {
+        background-color: #070b0e;
+    }
+    .section-2 .row .col-lg-7, .section-3 .row .col-lg-6 {
+        padding: 1.5em !important;
+    }
+    .box {
+        font-size: 2em;
+    }
+    .countdown {
+        transform: scale(0.95);
+    }
+    .countdown p {
+        font-size: 1em;
+    }
+    .days-box, .hours-box,
+    .minutes-box, .seconds-box {
+        padding: 1em !important;
+    }
+    .partner-container {
+        flex-wrap: wrap !important;
+    }
+    .partner-container img {
+        width: 120px !important;
+    }
+    .partner-background {
+        padding: 0 !important;
+        margin: 0 0 3em 0 !important;
+    }
+    .icon {
+	font-size: 1.2em !important;
+    }
+    footer {
+        height: auto;
+        background: none !important;
+    }
+    .banner {
+        display: block !important;
+	    height: 100% !important;
+    }
+}
 	font-size: 1.2em !important;
     }
     footer {
