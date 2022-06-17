@@ -1,6 +1,6 @@
 const countdown = () => {
 	// create future time, current time and gap between the two
-	const countDate = new Date("June 12, 2022 00:00:00").getTime();
+	const countDate = new Date("June 12, 2023 00:00:00").getTime();
 	const now = new Date().getTime();
 	const gap = countDate - now;
 
